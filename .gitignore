@@ -1,0 +1,6 @@
+*.env
+mongo/**
+
+!mongo/**/
+!mongo/**/.gitkeep
+!mongo/**/*.cfg
