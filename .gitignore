@@ -1,6 +1,11 @@
 *.env
 mongo/**
+node_modules/
+dist/
+*.txt
+*.json
 
 !mongo/**/
 !mongo/**/.gitkeep
 !mongo/**/*.cfg
+!package.json
