@@ -10,10 +10,19 @@ to install all dependencies.
 
 # Usage
 
-To run server, simply run:
+1. Start mongodb (there is .cfg file provided to store data inside project):
+`````bash
+    mongod -f ./mongo/mongo.cfg
+`````
+
+2. Create .env file.
+
+3. To run server, simply run:
 ````bash
     npm start
 ````
+
+4. Start postman and import postman collection provided for testing
 
 ## ENV file
 
